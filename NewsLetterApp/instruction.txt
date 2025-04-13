@@ -1,0 +1,123 @@
+Objective:
+
+This part of the assignment will assess your understanding of Object-Oriented Programming (OOP) principles using Kotlin. You are required to demonstrate your knowledge of the four major pillars of OOP: Encapsulation, Inheritance, Polymorphism, and Abstraction.
+
+Requirements:
+
+
+
+Essay Content:
+
+You are required to write an essay that covers your understanding of the four major pillars of Object-Oriented Programming in Kotlin.
+The essay should be written in your own words. Any form of plagiarism or use of AI tools (such as ChatGPT, DeepSeek, or any other AI platforms) will be monitored and penalized.
+Length: The essay should be at least one page long, and should not exceed 4-5 pages.
+You may include Kotlin code examples in your essay, but this is not mandatory. If you include code, make sure it is relevant and well-explained in your writing.
+Topics to Cover: Provide a detailed explanation of each of the four pillars of OOP:
+
+Encapsulation – Describe what it is, how it can be achieved in Kotlin, and why it is important.
+Inheritance – Explain how inheritance works in Kotlin, and provide an example.
+Polymorphism – Define polymorphism and describe its implementation in Kotlin with examples.
+Abstraction – Discuss the concept of abstraction and how Kotlin supports it.
+For each pillar:
+
+Define the concept.
+Discuss the benefits of using this concept in OOP.
+Optionally, include Kotlin code snippets to illustrate your points.
+Formatting:
+
+Use bullet points to organize your essay in a clear and logical manner.
+Ensure the essay is well-organized with clear subheadings for each OOP pillar.
+Follow proper grammar and writing conventions to ensure clarity and coherence.
+File Format:
+
+The essay should be submitted in either a Word document (.doc or .docx) or Plain Text (.txt) file format.
+File Naming: Name your file in the format: yourfirstname_oop_kotlin_essay.
+Submit the file on Blackboard before the due date.
+Evaluation Criteria:
+
+Clarity of Explanation: How clearly you explain the four pillars of OOP.
+Demonstration of Knowledge: How well you understand the concepts and their application in Kotlin.
+Organization: How well the essay is structured and formatted.
+Originality: Ensure your work is plagiarism-free and written in your own words.
+Important Notes:
+
+Make sure your essay is original and free from plagiarism.
+If you choose to use code snippets, ensure they are relevant to the topics discussed and well-commented.
+
+
+Part Two (7 Marks out of 15)
+Objective:
+
+In this part of the assignment, you will create an Android project using Kotlin and XML with ConstraintLayout. The focus will be on creating a fragment-based application with fragment communication using a Bundle to pass data between fragments.
+
+Requirements:
+
+
+
+Project Setup:
+
+Create a new Android project in Android Studio using Kotlin.
+The layout should use ConstraintLayout for both the activity and the fragments.
+You will create one activity and two fragments for this assignment.
+Fragment One - Newsletter Subscription Form:
+
+The app should open to Fragment One by default when the app is launched.
+In Fragment One, create a newsletter subscription registration form with the following views:
+Heading TextView: The heading should be dynamic and display the student’s Last Name followed by the text: "Newsletter Subscription Form" (e.g., “Smith_Newsletter_Subscription_Form”).
+Name EditText: Allow the user to enter their name.
+Email EditText: Allow the user to enter their email address.
+Gender Radio Group: Create a radio group with 3 radio buttons representing Male, Female, and Other options.
+Switch: Add a switch for users to opt-in or out of receiving family event-related emails.
+Checkbox: Add a checkbox to agree to the Terms and Conditions.
+Button: A button labeled "Register" to submit the form.
+Fragment Two - Thank You Page:
+
+When the user clicks the Register button in Fragment One, they should be navigated to Fragment Two.
+In Fragment Two, display the following information in TextView(Multiple if required):
+A thank you message (e.g., "Thank you for subscribing!").
+The user’s name, email, and the gender they selected in Fragment One.
+The status of the checkbox (whether the user agreed to the terms and conditions).
+The status of the switch (whether the user opted in for family events emails).
+Fragment Communication:
+
+The data entered in Fragment One should be passed to Fragment Two using a Bundle.
+When the Register button in Fragment One is clicked, create a Bundle to store the data and pass it to Fragment Two.
+Evaluation Criteria:
+
+Correctness of Fragment Layouts: Ensure that the views in Fragment One are displayed correctly using ConstraintLayout.
+Correct Fragment Communication: Ensure that the data passed from Fragment One is correctly received and displayed in Fragment Two using a Bundle.
+Functionality of the Form: The form should collect data and properly navigate to Fragment Two with the submitted information.
+UI Design: The app should have a clean and functional design using ConstraintLayout.
+Code Quality: Ensure your code is well-structured, readable, and follows Kotlin best practices.
+
+
+Part Three (3 Marks out of 15)
+Objective:
+
+In this part of the assignment, you will continue working with your Android project from Part Two (though it can be completed in a separate project if desired). The goal is to add a new Activity to your project and establish communication between Fragment Two and the new Activity Two using Bundles.
+
+Requirements:
+
+
+
+Add a New Activity:
+
+Add a new Activity to your project. You can name this activity ActivityTwo.
+In Fragment Two, add a Button labeled "Go to Activity Two".
+Pass Data from Fragment Two to Activity Two:
+
+When the "Go to Activity Two" button is clicked, navigate to Activity Two.
+Use a Bundle to pass the name of the user (entered in Fragment One) from Fragment Two to Activity Two.
+Display a Message in Activity Two:
+
+In Activity Two, display a welcome message that includes the name of the user passed from Fragment Two.
+Example message: "Welcome to Activity Two, [User's Name]!".
+Ensure Smooth Navigation:
+
+Use an Intent to start Activity Two from Fragment Two.
+Make sure the data (user’s name) is correctly passed using a Bundle with the Intent.
+Evaluation Criteria:
+
+Correctness of Data Passing: Ensure that the user’s name is properly passed from Fragment Two to Activity Two using a Bundle.
+Activity Navigation: Ensure that clicking the button in Fragment Two correctly navigates to Activity Two.
+Message Display: Ensure that the message in Activity Two includes the user’s name and is displayed correctly.
